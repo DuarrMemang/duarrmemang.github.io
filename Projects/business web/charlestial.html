@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Clothing Store</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <style>
+      /* Reset styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Global styles */
+      body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      /* Header styles */
+      .header {
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        padding: 20px;
+      }
+      .logo {
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .menu {
+        margin-top: 10px;
+      }
+      .menu-item {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      .menu-item:last-child {
+        margin-right: 0;
+      }
+
+      /* Hero styles */
+      .hero {
+        background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+        height: 500px;
+      }
+      .hero-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+      }
+      .hero-content h1 {
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+      }
+      .hero-content p {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+      }
+      .hero-content a {
+        background: #333;
+        color: #fff;
+        font-size: 24px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+        text-transform: uppercase;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease;
+      }
+      .hero-content a:hover {
+        background: #fff;
+        color: #333;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Featured products styles */
+      .featured-products {
+        padding: 50px;
+      }
+      .featured-product {
+        margin-bottom: 50px;
+      }
+      .featured-product img {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .featured-product h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .featured-product p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+      .featured-product a {
+        background: #333;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease;
+      }
+      .featured-product a:hover {
+        background: #fff;
+        color: #333;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Footer styles */
+      .footer {
+        background: #333;
+        padding: 50px;
+        color: #fff;
+      }
+      .footer p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .footer a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">Clothing Store</div>
+      <nav class="menu">
+        <a href="#" class="menu-item">Home</a>
+        <a href="#" class="menu-item">Shop</a>
+        <a href="#" class="menu-item">About</a>
+        <a href="#" class="menu-item">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <div>
+          <h1>Get the Latest Fashion</h1>
+          <p>Shop our wide selection of clothing and accessories</p>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+      <div class="featured-product">
+        <img src="https://via.placeholder.com/600x400" alt="Product">
+        <h2>Product Name</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod pulvinar tellus, ultrices finibus leo lacinia eu. In vestibulum dolor nibh, eget rhoncus enim euismod eu. Etiam dapibus elit a luctus maximus. Praesent placerat mi malesuada risus facilisis dignissim.</p>
+        <a href="#">View Product</a>
+      </div>
+      <div class="featured-product">
+        <img src="https://via.placeholder.com/600x400" alt="Product">
+        <h2>Product Name</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod pulvinar tellus, ultrices finibus leo lacinia eu. In vestibulum dolor nibh, eget rhoncus enim euismod eu. Etiam dapibus elit a luctus maximus. Praesent placerat mi malesuada risus facilisis dignissim.</p>
+        <a href="#">View Product</a>
+      </div>
+      <div class="featured-product">
+        <img src="https://via.placeholder.com/600x400" alt="Product">
+        <h2>Product Name</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod pulvinar tellus, ultrices finibus leo lacinia eu. In vestibulum dolor nibh, eget rhoncus enim euismod eu. Etiam dapibus elit a luctus maximus. Praesent placerat mi malesuada risus facilisis dignissim.</p>
+        <a href="#">View Product</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>Copyright &copy; 2019 Clothing Store
+        <br>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
