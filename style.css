@@ -69,6 +69,17 @@ h1 {
     margin-bottom: 10px;
 }
 
+.project-github{
+    width: 150px;
+    height: 40px;
+    background-color: grey;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    left: calc(100% - 50%);
+}
+
 /* Footer styles */
 footer {
     background-color: #000;
